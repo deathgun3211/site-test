@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d7e13cbe-5f45-454f-9a98-6063d401b397" name="Default Changelist" comment="">
+    <list default="true" id="d7e13cbe-5f45-454f-9a98-6063d401b397" name="Default Changelist" comment="test">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Readme.txt" afterPath="$PROJECT_DIR$/Readme.txt" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
@@ -49,7 +50,7 @@
         <entry file="file://$PROJECT_DIR$/Readme.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="9" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+              <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -286,7 +287,7 @@
       <workItem from="1563725506275" duration="7069000" />
       <workItem from="1563733387786" duration="1763000" />
       <workItem from="1563794673910" duration="548000" />
-      <workItem from="1563799851849" duration="3911000" />
+      <workItem from="1563799851849" duration="4046000" />
     </task>
     <task id="LOCAL-00001" summary="test 3">
       <created>1563725810736</created>
@@ -316,11 +317,18 @@
       <option name="project" value="LOCAL" />
       <updated>1563726705233</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="test">
+      <created>1563803797423</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1563803797423</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16463000" />
+    <option name="totallyTimeSpent" value="16598000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -373,7 +381,8 @@
     <MESSAGE value="test 4" />
     <MESSAGE value="test 7" />
     <MESSAGE value="test 8" />
-    <option name="LAST_COMMIT_MESSAGE" value="test 8" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -469,7 +478,7 @@
     <entry file="file://$PROJECT_DIR$/Readme.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="9" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+          <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
           <folding />
         </state>
       </provider>
