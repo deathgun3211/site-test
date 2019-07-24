@@ -1,8 +1,114 @@
+header h1 {
+    font-family: 'Helvetica', cursive;
+    font-size: 3rem;
+    float: left;
+    margin: 10px 100px ;
+    color: #d8b8b8;
+    grid-column: 1 ;
+    grid-row: 1;
+}
+
+.logo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, 100px);
+}
+
+.search {
+    margin: auto;
+
+}
+
+.button-conteiner {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, 100px);
+}
+
+.menu {
+    margin: auto;
+}
 
 
-.arcticle-img {
-    height: 300px;
-    width: 200px;
+
+
+header .button {
+    font-family: 'Helvetica', cursive;
+    background-color: #1b0909;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 15px;
+    cursor: pointer;
+    float: left;
+    text-decoration-color: #d8b8b8;
+}
+
+@media  (min-width: 780px) {
+
+    header .button {
+        font-family: 'Helvetica', cursive;
+        background-color: #1b0909;
+        border: none;
+        color: white;
+        padding: 15px 45px;
+        text-align: center;
+        text-decoration: none;
+        display: flex;
+        font-size: 16px;
+        cursor: pointer;
+        float: left;
+        text-decoration-color: #d8b8b8;
+    }
+
+}
+
+header #button-one {
+    border-radius: 2px 0 0 2px;
+}
+
+header #button-last {
+    border-radius: 0 2px 2px 0;
+}
+
+header .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+header .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+header .button:hover span {
+    padding-right: 25px;
+}
+
+header .button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+body {
+    background-color: #0d0101;
+    max-width: 980px;
+    margin: auto;
+}
+
+ .arcticle-img {
+    min-width: 200px;
     margin: 10px;
 }
 
